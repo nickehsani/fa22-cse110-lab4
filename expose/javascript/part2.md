@@ -46,3 +46,8 @@ This function returns an array holding all of the newly discounted prices, [50, 
 The `==` operator is a regular equality check, and it can perform type conversions. However it cannot differentiate between `false` and `0` or other types that would automatically be assumed to be the same thing. In order to do a strict equality check without type conversions, `===` should be used. It will differentiate between different types and will return a comparison between `false` and `0` to be `false`. 
 ### Question 16
 Answered in `part2-question16.js`
+### Question 17
+The result of this code is a new array of `[2,4,6]`. This array is a modification of the original input array `[1,2,3]`, and to achieve this, callbacks were used (basically a function within a function). The callback was used as a function that happened to be an argument, and this function `doSomething` was implemented to multiply each value within the array by 2. 
+### Question 18
+Answered in `part2-question18.js`
+### Question 19
