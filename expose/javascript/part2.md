@@ -51,3 +51,11 @@ The result of this code is a new array of `[2,4,6]`. This array is a modificatio
 ### Question 18
 Answered in `part2-question18.js`
 ### Question 19
+This code will output:
+```
+1
+4
+3
+2
+```
+It is printed this way due to the setTimeout() function, which delays the time when that function is called. Line 3's function call is delayed for 1 second, whereas line 4's function call is delayed for 0 milliseconds. Even though it is delayed for 0 milliseconds, the lines without setTimeout() will still execute in order first. `2` is printed last because it has the longest timeout. 
